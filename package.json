@@ -1,0 +1,20 @@
+{
+  "name": "find-a-friend",
+  "version": "1.0.0",
+  "description": "- [ ] It should be able to register a pet;\r - [ ] It should be able to list all pets available for adoption in a city;\r - [ ] It should be able to filter pets by its characteristcs;\r - [ ] It should be able to view details about a pet for adoption;\r - [ ] It should be able to register as an ORG;\r - [ ] It should be able to login as an ORG;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.48.0",
+    "tsx": "^3.12.8",
+    "typescript": "^5.2.2"
+  }
+}
