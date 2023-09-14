@@ -4,7 +4,8 @@
   "description": "- [ ] It should be able to register a pet;\r - [ ] It should be able to list all pets available for adoption in a city;\r - [ ] It should be able to filter pets by its characteristcs;\r - [ ] It should be able to view details about a pet for adoption;\r - [ ] It should be able to register as an ORG;\r - [ ] It should be able to login as an ORG;",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,9 @@
     "eslint": "^8.48.0",
     "prisma": "^5.2.0",
     "tsx": "^3.12.8",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^0.34.4"
   },
   "dependencies": {
     "@prisma/client": "^5.2.0",
