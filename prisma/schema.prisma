@@ -42,6 +42,8 @@ model Org {
   description    String?
   email          String  @unique
   passwordHash   String
+  state          String
+  city           String
   address        String
   postalCode     String
   whatsAppNumber String
