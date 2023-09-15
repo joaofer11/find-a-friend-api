@@ -1,5 +1,5 @@
 import { Pet, AdoptionRequirement, Org, Prisma } from '@prisma/client';
-import * as Enums from '../interfaces/pet-enums';
+import * as Enums from '../custom-types/pet-enums';
 
 export interface IFindManyByRegionParams {
   state: string;
