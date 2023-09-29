@@ -1,6 +1,6 @@
 import { it, expect, describe, beforeEach } from 'vitest';
 
-import { compare, hash } from 'bcryptjs';
+import { hash } from 'bcryptjs';
 import { AuthenticateOrgService } from './authenticate-org-service';
 import { InMemoryOrgRepository } from '@/repositories/in-memory/in-memory-org-repository';
 import { InvalidCredentialsError } from './errors/invalid-credentials-error';
