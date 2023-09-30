@@ -4,6 +4,7 @@
   "description": "- [ ] It should be able to register a pet;\r - [ ] It should be able to list all pets available for adoption in a city;\r - [ ] It should be able to filter pets by its characteristcs;\r - [ ] It should be able to view details about a pet for adoption;\r - [ ] It should be able to register as an ORG;\r - [ ] It should be able to login as an ORG;",
   "main": "index.js",
   "scripts": {
+    "start:dev": "tsx watch src/server.ts",
     "test": "vitest run",
     "test:watch": "vitest"
   },
